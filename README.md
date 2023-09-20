@@ -44,7 +44,7 @@ Get the addon from the [Chrome Web Store](https://chrome.google.com/webstore/det
 
 1. After installing the extension, you can click on its icon in the toolbar to open it and use it as per the instructions provided in the extension's user interface.
 
-Creadit goes to @osamasowidan for  inital idea  : 
-https://github.com/sowidan1/Text-Converter-Google-Extension 
+Creadit goes to ![osamasowidan](https://twitter.com/osamasowidan) for  inital idea  : 
+![Text-Converter-Google-Extension project](https://github.com/sowidan1/Text-Converter-Google-Extension) 
 
 
