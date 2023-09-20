@@ -1,0 +1,21 @@
+{
+    "name": "Daad Transformation",
+    "version": "1.2",
+    "description": "Transformation for miss type langugae between arabic and english from your context menu",
+    "permissions": ["contextMenus", "activeTab"], // Add "activeTab" permission to interact with the current tab
+    "manifest_version": 3,
+    "icons": {
+        "128": "images/appicon.png",
+        "180": "images/icon.png"
+    },
+    "background": {
+        "service_worker": "background.js" // Change "scripts" to "service_worker"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"], // Match all websites
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
