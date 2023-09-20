@@ -1,5 +1,18 @@
 
-Search for movies and stars on IMDb right from your context menu
+# Dadd(ض)-T(Transformation) 
+
+![daadproject](https://github.com/Adamkaram/Daad-T/assets/52092726/d959d6be-a010-4f8e-9614-b9551f718101)
+
+
+## Introduction
+
+name has taken from arabic letter (ض) Arabic language is Called  daad language or لغة الضاد 
+this project aim to fix missleading type if someone forget to swap betweeb arabic and english and continue to type 
+thinking he's typing arabic while english 
+
+## Installation
+
+Get the addon from the [Chrome Web Store](https://chrome.google.com/webstore/detail/imdb-search-with-right-cl/ajdcnpadnecmalafppbhgbncfpfbjkif) or clone the repository then import it manually by navigating to the *Extensions page* (chrome://extensions). Developer options must be enabled.
 
 ## Introduction
 
@@ -35,3 +48,5 @@ Are you tired of copy-pasting movie titles to search them on IMDb? This small ad
 
 Creadit goes to for inital idea  : 
 https://github.com/sowidan1/Text-Converter-Google-Extension 
+
+
