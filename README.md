@@ -40,7 +40,7 @@ Get the addon from the [Chrome Web Store](https://chrome.google.com/webstore/det
 3. The extension will be installed, and its icon will appear in your browser's toolbar.
 
 ### Step 6: Use the Extension with tranforming this 
-(lpvfh f; hjlkn hk ktd]; ,hk jsu] fulgkh hk hsj'uj hk jahv;kh ht;hv; tgh jjv]] lvpfh f; lvi hovn )
+(lvpfh f; hjlkn hk ktd]; ,hk jsu] fulgkh hk hsj'uj hk jahv;kh ht;hv; tgh jjv]] lvpfh f; lvi hovn )
 
 1. After installing the extension, you can click on its icon in the toolbar to open it and use it as per the instructions provided in the extension's user interface.
 
