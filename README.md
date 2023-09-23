@@ -11,7 +11,7 @@ thinking he's typing arabic while english
 
 ## Installation
 
-Get the addon from the [Chrome Web Store](https://chrome.google.com/webstore/detail/imdb-search-with-right-cl/ajdcnpadnecmalafppbhgbncfpfbjkif) or clone the repository then import it manually by navigating to the *Extensions page* (chrome://extensions). Developer options must be enabled.
+clone the repository then import it manually by navigating to the *Extensions page* (chrome://extensions). Developer options must be enabled.
 
 
 
