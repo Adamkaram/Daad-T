@@ -2,10 +2,6 @@
 var tailwindStyles = document.createElement('style');
 
 // Set the innerHTML of the style element to include the Tailwind CSS CDN link
-tailwindStyles.innerHTML = `
-  @import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css');
-  /* Your other CSS styles here */
-`;
 
 // Append the style element to the document head
 document.head.appendChild(tailwindStyles);
@@ -145,9 +141,10 @@ function convertBetweenLanguages(text) {
 }
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-    if (message.text) {
         // Perform the translation here
-        const convertedText = convertBetweenLanguages(message.text);
+        const selectedText = window.getSelection().toString();
+
+        const convertedText = convertBetweenLanguages(selectedText);
 
         // Create a div element to display the translated text
         var translationDiv = document.createElement('div');
@@ -155,8 +152,12 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
         translationDiv.style.zIndex = '9999';
         translationDiv.style.top = '20px'; // Adjust the top position as needed
         translationDiv.style.left = '20px'; // Adjust the left position as needed
-        translationDiv.style.backgroundColor = '#fff'; // Background color
-        translationDiv.style.border = '1px solid #ccc'; // Border
+
+
+
+
+  translationDiv.style.background = 'linear-gradient(to right, #E5E7EB, #D1D5DB)'; // Background color
+  translationDiv.style.border = '1px solid #ccc'; // Border
         translationDiv.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.2)'; // Box shadow
         translationDiv.style.borderRadius = '12px'; // Border radius
         translationDiv.style.fontFamily = 'Arial, sans-serif'; // Font family
@@ -171,7 +172,10 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
         var textParagraph = document.createElement('p');
         textParagraph.textContent = convertedText;
         textParagraph.style.margin = '0'; // Remove default margin
-        textParagraph.style.fontSize = '16px'; // Font size
+        textParagraph.style.fontSize = '20px'; // Font size
+
+textParagraph.style.fontWeight = 'bold';
+
         textParagraph.style.color = '#333'; // Text color
 
 
@@ -180,10 +184,32 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 
 
 
-        
             var copyButton = document.createElement('button');
             copyButton.textContent = 'Copy';
-            copyButton.className = 'bg-black text-white border-none py-1 px-3 cursor-pointer text-lg font-bold rounded mt-4 rounded-lg  opacity-75 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200';
+  // Apply styles to the button using JavaScript
+copyButton.style.backgroundColor = 'black';
+copyButton.style.color = 'white';
+copyButton.style.border = 'none';
+copyButton.style.padding = '10px 20px';
+copyButton.style.cursor = 'pointer';
+copyButton.style.fontSize = '16px';
+copyButton.style.fontWeight = 'bold';
+copyButton.style.borderRadius = '8px';
+copyButton.style.marginTop = '10px';
+copyButton.style.opacity = '0.75';
+copyButton.style.transition = 'opacity 1s';
+copyButton.style.background = 'linear-gradient(to right, #718096, #2B3648)';
+
+  // Add hover effect
+copyButton.addEventListener('mouseover', function () {
+    copyButton.style.opacity = '1';
+});
+
+copyButton.addEventListener('mouseout', function () {
+    copyButton.style.opacity = '0.75';
+});
+
+//  copyButton.className = 'bg-black text-white border-none py-1 px-3 cursor-pointer text-lg font-bold rounded mt-4 rounded-lg  opacity-75 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200';
 
             copyButton.addEventListener('click', function () {
             // Fade out the div with opacity animation
@@ -210,7 +236,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 
         // Send a response if needed
         sendResponse({ result: convertedText });
-    }
+
 });
 
 // Function to copy text to the clipboard
