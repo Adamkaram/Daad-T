@@ -46,15 +46,20 @@ clone the repository then import it manually by navigating to the *Extensions pa
 
 
 
-Featurts : 
+## Features to be implemented
 
+- [x] convert MLT  **English** To **Arabic** 
+- [x] convert MLT  **Arabic** To **English** 
+- [x] Global **HotKey** support
+- [ ] encypt posts to missleading the algo in social Media from being ban 
+- [ ] support 10 Type of encypt  all of them will be similar to bottom 
 
 
 :) P̶̮̺͈̪̠̃̇̓̀̔͌̑͛͌l̶̨̮̹̾̊͑͋̿̓̾͘̚͝͝͠é̸͚͕̱̽a̶̢̧̞͚̰̗͕̯͓̯̥̱̘̤̋̀͜s̴̛͓̖̼̟͔̥̟͉̗̩̀̾́̈́̑̔̄̎̂͆̒̈́ȩ̸̪͇̖̝̲͙̮͕̦͉̞͎̭̽͛̏́ͅ ̷̡̢̧̛̛̣̞͖̯͕̦͙͕̝̣̏͒͛͛̀̅̔͘̕ͅh̵̟͓̣̳̼͓̝̭̺̞̾͋̊͐̈́͒͛͋̽͛͘̚͝ẽ̵̛̥̦̜̲̯̓̔͑̉́͒ļ̸̢͍͙̦̻̞̫̦̟̱̲̲̊͒̅͆̾̒͜p̴̥̥͓̣͎̞̬̃̕ ̴̢̨̦̮̼̪̻͖̞͓̳͕̯͖̦͒̀̊͌́̚m̴͓͉͈͉͂͌̏̈́̔̾͆̀͋͝e̶̦͙̺̝̥̻̘̘̹̲̱͓͊̿̊̒̆̓͑̋̇̀̐̚̚͝
 
-## Creadit goes to
-[osamasowidan](https://twitter.com/osamasowidan) for  inital idea   
 
-[Text-Converter-Google-Extension project](https://github.com/sowidan1/Text-Converter-Google-Extension) 
+
+
+
 
 
