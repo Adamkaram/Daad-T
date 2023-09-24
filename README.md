@@ -73,11 +73,8 @@ clone the repository then import it manually by navigating to the *Extensions pa
 
 Show pledges per month:
 
-- Endpoint URL: `https://shieldsio-patreon.vercel.app/api/?username=endel&type=pledges`
-- Image SRC: `https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dendel%26type%3Dpledges&style=for-the-badge`
+
+<a href="https://patreon.com/juavascript"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dendel%26type%3Dpledges&style=for-the-badge" /> </a>
 
 
-<a href="https://patreon.com/endel"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dendel%26type%3Dpledges&style=for-the-badge" /> </a>
 
-
-https://patreon.com/juavascript
