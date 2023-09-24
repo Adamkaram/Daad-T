@@ -65,12 +65,19 @@ clone the repository then import it manually by navigating to the *Extensions pa
 
 **Supporting me** :
 
+### buymeacoffee
 <a href="https://www.buymeacoffee.com/ahmadkarm4B" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+### patreon
 
 
+Show pledges per month:
+
+- Endpoint URL: `https://shieldsio-patreon.vercel.app/api/?username=endel&type=pledges`
+- Image SRC: `https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dendel%26type%3Dpledges&style=for-the-badge`
 
 
+<a href="https://patreon.com/endel"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dendel%26type%3Dpledges&style=for-the-badge" /> </a>
 
 
-
+https://patreon.com/juavascript
