@@ -44,6 +44,14 @@ clone the repository then import it manually by navigating to the *Extensions pa
 
 1. After installing the extension, you can click on its icon in the toolbar to open it and use it as per the instructions provided in the extension's user interface.
 
+
+
+Featurts : 
+
+
+
+:) P̶̮̺͈̪̠̃̇̓̀̔͌̑͛͌l̶̨̮̹̾̊͑͋̿̓̾͘̚͝͝͠é̸͚͕̱̽a̶̢̧̞͚̰̗͕̯͓̯̥̱̘̤̋̀͜s̴̛͓̖̼̟͔̥̟͉̗̩̀̾́̈́̑̔̄̎̂͆̒̈́ȩ̸̪͇̖̝̲͙̮͕̦͉̞͎̭̽͛̏́ͅ ̷̡̢̧̛̛̣̞͖̯͕̦͙͕̝̣̏͒͛͛̀̅̔͘̕ͅh̵̟͓̣̳̼͓̝̭̺̞̾͋̊͐̈́͒͛͋̽͛͘̚͝ẽ̵̛̥̦̜̲̯̓̔͑̉́͒ļ̸̢͍͙̦̻̞̫̦̟̱̲̲̊͒̅͆̾̒͜p̴̥̥͓̣͎̞̬̃̕ ̴̢̨̦̮̼̪̻͖̞͓̳͕̯͖̦͒̀̊͌́̚m̴͓͉͈͉͂͌̏̈́̔̾͆̀͋͝e̶̦͙̺̝̥̻̘̘̹̲̱͓͊̿̊̒̆̓͑̋̇̀̐̚̚͝
+
 ## Creadit goes to
 [osamasowidan](https://twitter.com/osamasowidan) for  inital idea   
 
